@@ -1,0 +1,48 @@
+DARE
+
+
+TO-DO
+
+
+$$ Create Level Format and load from Image
+$$ enum for tile names, matching array of graphic pos and type
+$$ fixed array for map, only one one screen
+$$ Create player and collision detection
+
+MUST-DO:
+* Win state (maidens)
+* Danger (fireballs) and death (level restart)
+* Multiple levels (unload and load)
+* Title Screen, Win game screen
+
++1, +2, and +3 maidens (difficulty), xp meter, level up every 10?
+
+-- LEVEL SWITCHING, GOTO NEXT LEVEL ON MAIDEN
+-- KILLABLE ENEMIES: BAT AND GOBLIN
+-- GUN SHOOTING
+-- ANIM OBJECTS -- splatter baddies, bullet impacts (dying state?)
+-- MOAR LEVELS / MOAR TILES
+-- POWERUPS - DOUBLE JUMP, SHIELD, KEY, SPREAD FIRE, LONG FIRE,
+		MISSLE, FLOAT, FIREPROOFING,
+-- SOUND FX
+-- MUSIC?
+
+
+
+$$ Better Jumping: groundcheck, hold to jump higher, forgivetick
+** Animations for jumping, landing, and halt schreeching
+$$ collision for one-way platforms
+** possibly layer 2 for levels?
+$$ get tile from sensepop, decide to get hurt, etc.
+$$ change from tiletype to tileflags
+$$ Entity grouping in vector
+$$ Other entities: Fireball
+** moving platform
+$$ Death Animation
+$$ Reset level via key
+$$ Death resets level
+** Maidens, win animation
+** Shoot projectiles
+** Enemies
+** load sequence of levels
+** 
